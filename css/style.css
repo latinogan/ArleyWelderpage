@@ -1,0 +1,67 @@
+
+
+
+
+
+/*------------- Page Spinner Container ------------*/
+
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+  z-index: 9999;
+  
+  /* Alineación al centro */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+  /* Transición suave para ocultar mediante JS */
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+
+  /* Fondo Metálico Cepillado */
+  background-color: #b0b5ba; 
+  background-image: 
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0.65) 0%, rgba(160, 165, 172, 0.3) 60%, rgba(108, 115, 126, 0.8) 100%),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 1px,
+      rgba(0, 0, 0, 0.04) 1px,
+      rgba(0, 0, 0, 0.04) 2px
+    );
+}
+
+/* --------------- Logo Container Loader ---------------*/
+
+.loader-logo-container {
+  margin-bottom: 10px;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.15));
+}
+
+/*----------------- Style Image Logo Loader -------------------*/
+
+.loader-logo {
+  width: 100%;
+  max-width: 200px; /* Mantiene la imagen en un tamaño perfecto para móvil */
+  height: auto;
+  display: block;
+}
+
+/*----------------- Text Style -------------------*/
+
+#loader-wrapper p {
+  color: #0d2a4a;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);
+}
