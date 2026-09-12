@@ -4,7 +4,7 @@ This project involved the design, development, and comprehensive technical deplo
 
 **Live Site:** [https://lymestructurascali.com/](https://lymestructurascali.com/)
 
-![Site Responsive View](assets/mockup.png)
+![Site Responsive View](assets/Arleymockup.png)
 
 ## 🛠️ Tech Stack
 * **Frontend:** HTML5, CSS3 (Optimized and Minified), JavaScript (ES6+).
